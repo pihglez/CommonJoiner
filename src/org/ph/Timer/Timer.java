@@ -26,13 +26,13 @@ public class Timer {
     private String description;
     
     public Timer(String description) {
-        this.T0 = System.currentTimeMillis();
+        this.T0 = System.nanoTime();
         t1 = T0;
         this.description = description;
     }
     
     public void setT1() {
-        this.t1 = System.currentTimeMillis();
+        this.t1 = System.nanoTime();
     }
     
     public long getEllapsedTime(){
