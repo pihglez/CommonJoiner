@@ -29,6 +29,4 @@ public class InfoCommonJoiner {
             + "sendas listas de números (un número por línea), se comparan y" + "\n"
             + "se crea un tercer archivo (o se lista por pantalla) que" + "\n"
             + "contiene únicamente los elementos comunes a ambos.";
-    
-    
 }
