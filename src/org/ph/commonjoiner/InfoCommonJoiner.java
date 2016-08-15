@@ -28,5 +28,7 @@ public class InfoCommonJoiner {
             + "Software que, a partir de dos archivos en los que se incluyen" + "\n"
             + "sendas listas de números (un número por línea), se comparan y" + "\n"
             + "se crea un tercer archivo (o se lista por pantalla) que" + "\n"
-            + "contiene únicamente los elementos comunes a ambos.";
+            + "contiene únicamente los elementos comunes a ambos." + "\n"
+            + "También permite copiar los archivos que coincidan con el patrón" + "\n"
+            + "numérico final almacenado en un archivo de base.";
 }
